@@ -5,11 +5,11 @@ name: Python application
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ main ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ main ]
   workflow_dispatch:
-    branches: [ "main" ]
+    branches: [ main ]
 
 permissions:
   contents: read
