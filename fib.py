@@ -10,5 +10,3 @@ def fibonacci(position):
  return fibonacci(position - 1) + fibonacci(position - 2)
 
 
-
-
