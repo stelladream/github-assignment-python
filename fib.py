@@ -5,7 +5,7 @@ When given a position, the function returns the fibonacci at that position in th
 The zeroth number in the fibonacci sequence is 0. The first number is 1
 Negative numbers should return None
 """
-def fibonacci(position):
+def fibonaccii(position):
  if position < 0:
  return None
  elif position == 0:
@@ -13,4 +13,4 @@ def fibonacci(position):
  elif position == 1:
  return 1
  else:
- return fibonacci(position - 1) + fibonacci(position - 2)
+ return fibonaccii(position - 1) + fibonacci(position - 2)
